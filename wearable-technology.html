@@ -2,17 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A collection of wearable technology projects by Maria Otero exploring textiles, sensory augmentation, haptic feedback, and physical computing.">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="A collection of wearable technology projects by Maria Otero exploring textiles, sensory augmentation, haptic feedback, and physical computing."
+  >
+
   <title>Wearable Technology | Maria Otero</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="wearable-page">
+
+  <!-- Header -->
   <header class="site-header">
-    <nav class="navigation container" aria-label="Main navigation">
-      <a class="brand" href="index.html#home" aria-label="Return to Maria Otero homepage">
-        <img src="assets/images/meo-logo.png" alt="Maria Otero logo" class="brand-logo">
+    <nav
+      class="navigation container"
+      aria-label="Main navigation"
+    >
+      <a
+        class="brand"
+        href="index.html#home"
+        aria-label="Return to Maria Otero homepage"
+      >
+        <img
+          src="assets/images/meo-logo.png"
+          alt="Maria Otero logo"
+          class="brand-logo"
+        >
       </a>
+
       <div class="nav-links">
         <a href="index.html#about">About</a>
         <a href="index.html#projects">Projects</a>
@@ -22,128 +47,1244 @@
     </nav>
   </header>
 
+
   <main>
+
+    <!-- Wearable collection introduction -->
     <section class="wearable-hero">
       <div class="container">
-        <a class="case-back-link" href="index.html#projects"><span aria-hidden="true">←</span> Back to selected work</a>
+
+        <a
+          class="case-back-link"
+          href="index.html#projects"
+        >
+          <span aria-hidden="true">←</span>
+          Back to selected work
+        </a>
+
         <div class="wearable-hero-grid">
+
           <div>
-            <p class="case-project-type">Wearable Technology Collection</p>
+            <p class="case-project-type">
+              Wearable Technology Collection
+            </p>
+
             <h1>Responsive Wearables</h1>
           </div>
+
           <div class="wearable-hero-copy">
-            <p>A collection of interactive wearable concepts exploring how sensing, textiles, physical computing, and feedback can become part of everyday experiences.</p>
+            <p>
+              A collection of interactive wearable concepts exploring how
+              sensing, textiles, physical computing, and feedback can become
+              part of everyday experiences.
+            </p>
           </div>
+
         </div>
+
         <div class="wearable-collection-summary">
-          <article><span>01</span><p>Sensing Pocket</p></article>
-          <article><span>02</span><p>Echo Sleeve</p></article>
-          <article><span>03</span><p>Power Limit Challenge</p></article>
+
+          <article>
+            <span>01</span>
+            <p>Sensing Pocket</p>
+          </article>
+
+          <article>
+            <span>02</span>
+            <p>Echo Sleeve</p>
+          </article>
+
+          <article>
+            <span>03</span>
+            <p>Thermal Compass Scarf</p>
+          </article>
+
         </div>
       </div>
     </section>
 
-    <section class="wearable-project-section wearable-project-light">
+
+    <!-- =====================================================
+         PROJECT 01: SENSING POCKET
+         ===================================================== -->
+
+    <section
+      class="wearable-project-section wearable-project-light sensing-pocket-project"
+      id="sensing-pocket"
+    >
       <div class="container">
+
         <div class="wearable-project-heading">
           <div class="wearable-project-title">
-            <p class="wearable-project-number">Project 01</p>
+
+            <p class="wearable-project-number">
+              Project 01
+            </p>
+
             <h2>Sensing Pocket</h2>
-            <p class="wearable-project-tagline">An everyday pocket reimagined as an interactive wearable.</p>
-          </div>
-        </div>
-        <div class="wearable-project-feature">
-          <figure class="wearable-feature-image">
-            <img src="assets/images/wearable/sensing-pocket-hero.jpg" alt="Illustration of the Sensing Pocket wearable prototype with embedded LEDs, conductive stitching, magnetic closure, and LilyPad electronics">
-          </figure>
-          <div class="wearable-feature-details">
-            <div><p class="wearable-detail-label">Contribution</p><p>Interaction Design<br>Prototype Development</p></div>
-            <div><p class="wearable-detail-label">Toolkit</p><p>LilyPad Arduino<br>Conductive Thread<br>LEDs<br>Textile Construction</p></div>
-            <div><p class="wearable-detail-label">Focus</p><p>Wearable Design<br>Physical Computing<br>Rapid Prototyping</p></div>
-          </div>
-        </div>
-        <div class="wearable-gallery">
-          <figure class="wearable-gallery-card">
-            <img src="assets/images/wearable/sensing-pocket-early-sketch.jpg" alt="Early sketches exploring pocket placement, component layout, and wearable positioning">
-            <figcaption><strong>Concept</strong><span>Initial placement and interaction concept.</span></figcaption>
-          </figure>
-          <figure class="wearable-gallery-card">
-            <img src="assets/images/wearable/sensing-pocket-fabric-prototype.jpg" alt="Fabric prototype showing pocket construction and component placement">
-            <figcaption><strong>Construction</strong><span>Pocket construction and component placement.</span></figcaption>
-          </figure>
-          <figure class="wearable-gallery-card">
-            <img src="assets/images/wearable/sensing-pocket-feedback-testing.jpg" alt="Sensing Pocket connected to a breadboard during LED feedback testing">
-            <figcaption><strong>Testing</strong><span>Testing the circuit and LED response.</span></figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
 
-    <section class="wearable-project-section">
-      <div class="container">
-        <div class="wearable-project-heading">
-          <div class="wearable-project-title">
-            <p class="wearable-project-number">Project 02</p>
-            <h2>Echo Sleeve</h2>
-            <p class="wearable-project-tagline">Turning invisible spatial information into tactile perception.</p>
+            <p class="wearable-project-tagline">
+              A smart pocket that senses touch and responds with light.
+            </p>
+
           </div>
         </div>
+
         <div class="wearable-project-description">
-          <p>Echo Sleeve is a wearable haptic system inspired by biological echolocation. An ultrasonic sensor measures nearby objects while an ESP32-S3 translates distance into changing vibration patterns, allowing the wearer to feel proximity through touch.</p>
+          <p>
+            Sensing Pocket explores how wearable electronics can become part
+            of an ordinary textile object. LilyPad LEDs, conductive thread,
+            and a touch sensor create immediate visual feedback along the
+            pocket edge, turning a familiar clothing detail into a subtle
+            physical interface.
+          </p>
         </div>
+
+
+        <!-- Sensing Pocket hero -->
         <div class="wearable-project-feature">
-          <figure class="wearable-feature-image wearable-feature-image-contain">
-            <img src="assets/images/wearable/echo-sleeve-concept.png" alt="Concept visualization of the Echo Sleeve showing an ultrasonic sensor, processing unit, and haptic feedback module integrated into a black compression sleeve">
+
+          <figure class="wearable-feature-image sensing-pocket-feature">
+
+            <div class="sensing-pocket-image-wrap">
+
+              <img
+                src="assets/images/wearable/sensing-pocket-hero.jpg"
+                alt="Sensing Pocket concept showing a textile pocket with LilyPad electronics, conductive stitching, and LEDs"
+              >
+
+              <div
+                class="pocket-led-layer"
+                aria-hidden="true"
+              >
+                <span class="pocket-led led-1"></span>
+                <span class="pocket-led led-2"></span>
+                <span class="pocket-led led-3"></span>
+                <span class="pocket-led led-4"></span>
+                <span class="pocket-led led-5"></span>
+                <span class="pocket-led led-6"></span>
+                <span class="pocket-led led-7"></span>
+                <span class="pocket-led led-8"></span>
+                <span class="pocket-led led-9"></span>
+              </div>
+
+            </div>
+
+            <figcaption>
+              Touch along the pocket edge to activate the LED response.
+            </figcaption>
+
           </figure>
-          <div class="wearable-feature-details">
-            <div><p class="wearable-detail-label">Contribution</p><p>Interaction Design<br>Circuit Prototyping<br>Wearable Concept Development</p></div>
-            <div><p class="wearable-detail-label">Toolkit</p><p>ESP32-S3<br>HC-SR04 Ultrasonic Sensor<br>DA7280 Haptic Driver<br>LRA Vibration Motor<br>Arduino</p></div>
-            <div><p class="wearable-detail-label">Focus</p><p>Sensory Augmentation<br>Haptic Interaction<br>Physical Computing</p></div>
-          </div>
+
+
+          <aside class="wearable-feature-details">
+
+            <div>
+              <p class="wearable-detail-label">
+                Contribution
+              </p>
+
+              <p>
+                Interaction Design<br>
+                Textile Prototyping<br>
+                Circuit Development
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Toolkit
+              </p>
+
+              <p>
+                LilyPad Arduino<br>
+                Conductive Thread<br>
+                LilyPad LEDs<br>
+                Touch Sensor
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Focus
+              </p>
+
+              <p>
+                E-Textiles<br>
+                Physical Computing<br>
+                Responsive Interaction
+              </p>
+            </div>
+
+          </aside>
         </div>
-        <div class="wearable-gallery">
-          <figure class="wearable-gallery-placeholder">
-            <div><p>Add your clearest complete breadboard photo here.</p></div>
-            <figcaption><strong>System Prototype</strong><span>Connecting proximity sensing, processing, and haptic output.</span></figcaption>
-          </figure>
-          <figure class="wearable-gallery-placeholder">
-            <div><p>Add a close-up electronics photo here.</p></div>
-            <figcaption><strong>Hardware Development</strong><span>Integrating the ultrasonic sensor, haptic driver, and vibration motor.</span></figcaption>
-          </figure>
-          <figure class="wearable-gallery-placeholder">
-            <div><p>Add one of your testing photos here.</p></div>
-            <figcaption><strong>Testing &amp; Feedback</strong><span>Refining vibration patterns across different distances.</span></figcaption>
-          </figure>
-        </div>
-        <div class="wearable-project-note">
-          <p class="wearable-detail-label">Prototype Status</p>
-          <p>The sensing and haptic electronics were successfully developed and tested through Arduino. The final integration into the compression sleeve remained at the concept stage, so the main image is clearly presented as a concept visualization.</p>
+
+
+        <!-- Sensing Pocket process -->
+        <div class="sensing-process-grid">
+
+          <!-- Context -->
+          <article class="sensing-process-card sensing-context-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                01
+              </p>
+
+              <h3>Context</h3>
+
+              <p>
+                The project began with a simple question: how could an everyday
+                pocket communicate that it had been touched without using a
+                screen, sound, or conventional control?
+              </p>
+
+            </div>
+
+            <figure>
+              <img
+                src="assets/images/wearable/sensing-pocket-early-sketch.jpg"
+                alt="Early Sensing Pocket sketches exploring pocket placement, wearable context, and component layout"
+              >
+            </figure>
+
+          </article>
+
+
+          <!-- Ideation -->
+          <article class="sensing-process-card sensing-ideation-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                02
+              </p>
+
+              <h3>Ideation</h3>
+
+              <p>
+                Early concepts placed the touch area and LED pathway along the
+                existing pocket seam so the interaction would remain familiar,
+                discreet, and visually integrated.
+              </p>
+
+            </div>
+
+            <div class="sensing-process-points">
+
+              <div>
+                <strong>Interaction</strong>
+
+                <p>
+                  Touch anywhere along the pocket edge.
+                </p>
+              </div>
+
+              <div>
+                <strong>Circuit Layout</strong>
+
+                <p>
+                  Conductive pathways follow the textile seams.
+                </p>
+              </div>
+
+              <div>
+                <strong>Feedback</strong>
+
+                <p>
+                  A soft lighting sequence confirms the input.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- Development -->
+          <article class="sensing-process-card sensing-development-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                03
+              </p>
+
+              <h3>Development</h3>
+
+              <p>
+                The pocket was assembled through iterative textile and circuit
+                prototyping, with components tested before final integration.
+              </p>
+
+            </div>
+
+            <div class="sensing-development-images">
+
+              <figure>
+
+                <img
+                  src="assets/images/wearable/sensing-pocket-fabric-prototype.jpg"
+                  alt="Fabric Sensing Pocket prototype showing textile construction and component placement"
+                >
+
+                <figcaption>
+                  Textile construction and component placement.
+                </figcaption>
+
+              </figure>
+
+              <figure>
+
+                <img
+                  src="assets/images/wearable/sensing-pocket-feedback-testing.jpg"
+                  alt="Sensing Pocket connected during circuit and LED feedback testing"
+                >
+
+                <figcaption>
+                  Circuit integration and LED testing.
+                </figcaption>
+
+              </figure>
+
+            </div>
+          </article>
+
+
+          <!-- Validation -->
+          <article class="sensing-process-card sensing-validation-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                04
+              </p>
+
+              <h3>Validation</h3>
+
+              <p>
+                Testing focused on whether touch was detected consistently and
+                whether the lighting response was immediate and visible.
+              </p>
+
+            </div>
+
+            <div class="sensing-validation-steps">
+
+              <div>
+                <span>01</span>
+
+                <strong>Touch input</strong>
+
+                <p>
+                  The sensor recognizes contact along the interaction area.
+                </p>
+              </div>
+
+              <div>
+                <span>02</span>
+
+                <strong>Signal processing</strong>
+
+                <p>
+                  The LilyPad translates input into an LED response.
+                </p>
+              </div>
+
+              <div>
+                <span>03</span>
+
+                <strong>Visual feedback</strong>
+
+                <p>
+                  The illuminated edge confirms that touch was detected.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- Outcome -->
+          <article class="sensing-process-card sensing-outcome-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                05
+              </p>
+
+              <h3>Outcome</h3>
+
+              <p>
+                The final prototype demonstrated how sensing, conductive
+                materials, and light can transform a familiar textile object
+                into a responsive interface.
+              </p>
+
+            </div>
+
+            <div class="sensing-outcome-points">
+
+              <div>
+                <strong>Intuitive interaction</strong>
+
+                <p>
+                  A familiar touch gesture activates the response.
+                </p>
+              </div>
+
+              <div>
+                <strong>E-textile integration</strong>
+
+                <p>
+                  The conductive circuit becomes part of the construction.
+                </p>
+              </div>
+
+              <div>
+                <strong>Clear feedback</strong>
+
+                <p>
+                  Light communicates that the input was recognized.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
 
-    <section class="wearable-project-section wearable-project-light">
+
+    <!-- =====================================================
+         PROJECT 02: ECHO SLEEVE
+         ===================================================== -->
+
+    <section
+      class="wearable-project-section wearable-project-light echo-sleeve-project"
+      id="echo-sleeve"
+    >
       <div class="container">
+
         <div class="wearable-project-heading">
           <div class="wearable-project-title">
-            <p class="wearable-project-number">Project 03</p>
-            <h2>Power Limit Challenge</h2>
-            <p class="wearable-project-tagline">Project details and visuals will be added next.</p>
+
+            <p class="wearable-project-number">
+              Project 02
+            </p>
+
+            <h2>Echo Sleeve</h2>
+
+            <p class="wearable-project-tagline">
+              Translating nearby movement and distance into tactile feedback.
+            </p>
+
           </div>
         </div>
-        <div class="wearable-project-note">
-          <p class="wearable-detail-label">Coming Next</p>
-          <p>This section is intentionally reserved so the collection remains accurate while the project description and images are prepared.</p>
+
+        <div class="wearable-project-description">
+          <p>
+            Echo Sleeve is a responsive wearable system that communicates
+            spatial information through touch. An ultrasonic sensor measures
+            proximity while an ESP32-S3 processes the input and activates
+            changing vibration patterns.
+          </p>
+        </div>
+
+
+        <!-- Echo Sleeve hero -->
+        <div class="wearable-project-feature">
+
+          <figure class="wearable-feature-image echo-sleeve-feature">
+
+            <div class="echo-sleeve-image-wrap">
+
+              <img
+                src="assets/images/wearable/echo-sleeve-hero.png"
+                alt="Echo Sleeve proximity-sensing wearable integrated into a compression sleeve"
+              >
+
+              <div
+                class="echo-live-layer"
+                aria-hidden="true"
+              >
+                <span class="echo-sensor-pulse echo-sensor-pulse-1"></span>
+                <span class="echo-sensor-pulse echo-sensor-pulse-2"></span>
+                <span class="echo-sensor-pulse echo-sensor-pulse-3"></span>
+
+                <span class="echo-haptic-glow"></span>
+                <span class="echo-haptic-core"></span>
+              </div>
+
+            </div>
+          </figure>
+
+
+          <aside class="wearable-feature-details">
+
+            <div>
+              <p class="wearable-detail-label">
+                Contribution
+              </p>
+
+              <p>
+                Interaction Design<br>
+                Circuit Prototyping<br>
+                Programming<br>
+                Wearable Development
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Toolkit
+              </p>
+
+              <p>
+                ESP32-S3<br>
+                Ultrasonic Sensor<br>
+                DA7280 Haptic Driver<br>
+                Vibration Motor<br>
+                Arduino IDE
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Focus
+              </p>
+
+              <p>
+                Proximity Sensing<br>
+                Haptic Interaction<br>
+                Physical Computing
+              </p>
+            </div>
+
+          </aside>
+        </div>
+
+
+        <!-- Echo Sleeve process -->
+        <div class="sensing-process-grid echo-process-grid">
+
+          <!-- Context -->
+          <article class="sensing-process-card echo-context-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                01
+              </p>
+
+              <h3>Context</h3>
+
+              <p>
+                The project began by exploring how information about nearby
+                objects could be communicated without relying on a screen or
+                sound. The challenge was to transform changing distance into
+                feedback that could be understood through touch.
+              </p>
+
+            </div>
+          </article>
+
+
+          <!-- Ideation -->
+          <article class="sensing-process-card echo-ideation-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                02
+              </p>
+
+              <h3>Ideation</h3>
+
+              <p>
+                I designed a direct relationship between distance and
+                vibration. As an object moves closer to the sensor, the tactile
+                feedback becomes faster and more noticeable.
+              </p>
+
+            </div>
+
+            <div class="echo-system-flow">
+
+              <div class="echo-flow-item">
+                <strong>Sense</strong>
+
+                <span>
+                  Measure nearby distance
+                </span>
+              </div>
+
+              <div class="echo-flow-item">
+                <strong>Process</strong>
+
+                <span>
+                  Interpret the sensor input
+                </span>
+              </div>
+
+              <div class="echo-flow-item">
+                <strong>Translate</strong>
+
+                <span>
+                  Assign a feedback pattern
+                </span>
+              </div>
+
+              <div class="echo-flow-item">
+                <strong>Respond</strong>
+
+                <span>
+                  Deliver tactile vibration
+                </span>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- Development -->
+          <article
+            class="sensing-process-card sensing-development-card echo-development-card"
+          >
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                03
+              </p>
+
+              <h3>Development</h3>
+
+              <p>
+                I assembled and programmed the electronics, connected the
+                ultrasonic sensor to the ESP32-S3, and integrated the haptic
+                driver and vibration motor. Breadboard testing helped me
+                troubleshoot component communication, distance readings, and
+                feedback behavior.
+              </p>
+
+            </div>
+
+            <div class="echo-development-gallery">
+
+              <figure class="echo-gallery-item echo-gallery-main">
+
+                <img
+                  src="assets/images/wearable/echo-sleeve-system.JPG"
+                  alt="Complete Echo Sleeve sensing and haptic-feedback prototype"
+                >
+
+                <figcaption>
+                  <strong>System Prototype</strong>
+
+                  Complete circuit connecting sensing, processing, and tactile
+                  feedback.
+                </figcaption>
+
+              </figure>
+
+              <figure class="echo-gallery-item">
+
+                <img
+                  src="assets/images/wearable/echo-sleeve-hardware.JPG"
+                  alt="ESP32-S3, haptic driver, vibration motor, and circuit wiring"
+                >
+
+                <figcaption>
+                  <strong>Hardware Integration</strong>
+
+                  Connecting the microcontroller, haptic driver, power, and
+                  vibration components.
+                </figcaption>
+
+              </figure>
+
+              <figure class="echo-gallery-item">
+
+                <img
+                  src="assets/images/wearable/echo-sleeve-sensor.JPG"
+                  alt="Ultrasonic sensor connected during Echo Sleeve testing"
+                >
+
+                <figcaption>
+                  <strong>Sensor Development</strong>
+
+                  Testing changing distances and refining sensor response.
+                </figcaption>
+
+              </figure>
+
+            </div>
+          </article>
+
+
+          <!-- Validation -->
+          <article
+            class="sensing-process-card sensing-validation-card echo-validation-card"
+          >
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                04
+              </p>
+
+              <h3>Validation</h3>
+
+              <p>
+                Testing focused on whether the system could recognize changing
+                distances consistently and produce a clear tactile response.
+                The demonstrations document the working relationship between
+                sensing, processing, and vibration.
+              </p>
+
+            </div>
+
+            <div class="echo-video-grid">
+
+              <figure class="echo-video-card">
+
+                <video
+                  controls
+                  playsinline
+                  preload="metadata"
+                >
+                  <source
+                    src="assets/videos/wearable/echo-sleeve-testing.MOV"
+                    type="video/quicktime"
+                  >
+
+                  Your browser does not support embedded video.
+                </video>
+
+                <figcaption>
+                  <strong>Distance Response Testing</strong>
+
+                  Testing how the sensor responds as proximity changes.
+                </figcaption>
+
+              </figure>
+
+              <figure class="echo-video-card">
+
+                <video
+                  controls
+                  playsinline
+                  preload="metadata"
+                >
+                  <source
+                    src="assets/videos/wearable/echo-sleeve-demo.MOV"
+                    type="video/quicktime"
+                  >
+
+                  Your browser does not support embedded video.
+                </video>
+
+                <figcaption>
+                  <strong>Functional Demonstration</strong>
+
+                  Confirming communication between the sensor, controller, and
+                  tactile output.
+                </figcaption>
+
+              </figure>
+
+            </div>
+          </article>
+
+
+          <!-- Outcome -->
+          <article
+            class="sensing-process-card sensing-outcome-card echo-outcome-card"
+          >
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                05
+              </p>
+
+              <h3>Outcome</h3>
+
+              <p>
+                Echo Sleeve resulted in a working proximity-sensing and
+                haptic-feedback system developed for a wearable compression
+                sleeve. The project demonstrates my ability to connect
+                sensors, microcontrollers, and tactile outputs to create a
+                responsive physical interaction.
+              </p>
+
+            </div>
+
+            <div class="sensing-outcome-points">
+
+              <div>
+                <strong>Responsive sensing</strong>
+
+                <p>
+                  Distance measurements change as nearby objects move.
+                </p>
+              </div>
+
+              <div>
+                <strong>Dynamic feedback</strong>
+
+                <p>
+                  Vibration behavior communicates changing proximity.
+                </p>
+              </div>
+
+              <div>
+                <strong>Wearable application</strong>
+
+                <p>
+                  The system is designed for integration into a sleeve.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
+
+
+    <!-- =====================================================
+         PROJECT 03: THERMAL COMPASS SCARF
+         ===================================================== -->
+
+    <section
+      class="wearable-project-section wearable-project-light thermal-scarf-project"
+      id="thermal-scarf"
+    >
+      <div class="container">
+
+        <div class="wearable-project-heading">
+          <div class="wearable-project-title">
+
+            <p class="wearable-project-number">
+              Project 03
+            </p>
+
+            <h2>Thermal Compass Scarf</h2>
+
+            <p class="wearable-project-tagline">
+              Translating ambient temperature into directional haptic cues.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="wearable-project-description">
+          <p>
+            Thermal Compass Scarf is a wearable concept that communicates
+            thermal comfort through vibration rather than physical heating or
+            cooling. A hidden temperature sensor compares the environment with
+            a comfort range selected by the wearer and activates different
+            haptic patterns across the scarf.
+          </p>
+        </div>
+
+
+        <!-- Thermal Scarf animated hero -->
+        <div class="wearable-project-feature">
+
+          <figure class="wearable-feature-image thermal-scarf-feature">
+
+            <div class="thermal-scarf-visual">
+
+              <div
+                class="thermal-scarf-garment"
+                aria-hidden="true"
+              >
+                <div class="thermal-scarf-fold thermal-fold-left"></div>
+                <div class="thermal-scarf-fold thermal-fold-center"></div>
+                <div class="thermal-scarf-fold thermal-fold-right"></div>
+
+                <span class="thermal-haptic-zone thermal-zone-1"></span>
+                <span class="thermal-haptic-zone thermal-zone-2"></span>
+                <span class="thermal-haptic-zone thermal-zone-3"></span>
+                <span class="thermal-haptic-zone thermal-zone-4"></span>
+                <span class="thermal-haptic-zone thermal-zone-5"></span>
+
+                <span class="thermal-sensor-node"></span>
+                <span class="thermal-control-button"></span>
+              </div>
+
+              <div class="thermal-mode-display">
+                <span class="thermal-mode-label">
+                  Current pattern
+                </span>
+
+                <strong>
+                  Comfort range
+                </strong>
+
+                <p>
+                  Soft breathing pulse
+                </p>
+              </div>
+
+            </div>
+          </figure>
+
+
+          <aside class="wearable-feature-details">
+
+            <div>
+              <p class="wearable-detail-label">
+                Contribution
+              </p>
+
+              <p>
+                Wearable Concept Design<br>
+                Interaction Design<br>
+                Haptic Pattern Design<br>
+                Textile Planning
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Proposed Toolkit
+              </p>
+
+              <p>
+                ESP32<br>
+                TMP36 or DHT11 Sensor<br>
+                LRA Vibration Motors<br>
+                Haptic Drivers<br>
+                Conductive Thread
+              </p>
+            </div>
+
+            <div>
+              <p class="wearable-detail-label">
+                Project Status
+              </p>
+
+              <p>
+                Concept Development<br>
+                System Planning<br>
+                Interaction Specification
+              </p>
+            </div>
+
+          </aside>
+        </div>
+
+
+        <!-- Thermal Scarf process -->
+        <div class="sensing-process-grid thermal-process-grid">
+
+          <!-- Context -->
+          <article class="sensing-process-card sensing-context-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                01
+              </p>
+
+              <h3>Context</h3>
+
+              <p>
+                Temperature is usually communicated through numbers, icons, or
+                alerts. This concept explores whether thermal comfort could
+                instead be felt through a soft wearable interface that remains
+                subtle and screen-free.
+              </p>
+
+            </div>
+          </article>
+
+
+          <!-- Ideation -->
+          <article class="sensing-process-card sensing-ideation-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                02
+              </p>
+
+              <h3>Ideation</h3>
+
+              <p>
+                The scarf acts like a thermal compass. Rather than changing the
+                wearer’s temperature, directional vibration patterns
+                communicate whether the surrounding environment is becoming
+                too cold, too hot, or remains within the selected comfort
+                range.
+              </p>
+
+            </div>
+
+            <div class="thermal-mode-grid">
+
+              <div>
+                <span
+                  class="thermal-mode-icon cold-mode"
+                  aria-hidden="true"
+                ></span>
+
+                <strong>Too cold</strong>
+
+                <p>
+                  Slow pulses travel from top to bottom.
+                </p>
+              </div>
+
+              <div>
+                <span
+                  class="thermal-mode-icon comfort-mode"
+                  aria-hidden="true"
+                ></span>
+
+                <strong>Comfortable</strong>
+
+                <p>
+                  A soft breathing pulse repeats periodically.
+                </p>
+              </div>
+
+              <div>
+                <span
+                  class="thermal-mode-icon hot-mode"
+                  aria-hidden="true"
+                ></span>
+
+                <strong>Too hot</strong>
+
+                <p>
+                  Fast pulses travel from bottom to top.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- System Design -->
+          <article class="sensing-process-card sensing-development-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                03
+              </p>
+
+              <h3>System Design</h3>
+
+              <p>
+                A temperature sensor hidden inside a textile pocket would
+                collect ambient data. The ESP32 would compare that reading with
+                the wearer’s selected comfort range and activate a directional
+                pattern across a band of vibration motors sewn into the scarf.
+              </p>
+
+            </div>
+
+            <div class="thermal-system-flow">
+
+              <div class="thermal-system-step">
+                <span>01</span>
+
+                <strong>Sense</strong>
+
+                <p>
+                  Measure ambient temperature.
+                </p>
+              </div>
+
+              <div
+                class="thermal-system-connector"
+                aria-hidden="true"
+              >
+                →
+              </div>
+
+              <div class="thermal-system-step">
+                <span>02</span>
+
+                <strong>Compare</strong>
+
+                <p>
+                  Check the selected comfort range.
+                </p>
+              </div>
+
+              <div
+                class="thermal-system-connector"
+                aria-hidden="true"
+              >
+                →
+              </div>
+
+              <div class="thermal-system-step">
+                <span>03</span>
+
+                <strong>Translate</strong>
+
+                <p>
+                  Select the appropriate haptic pattern.
+                </p>
+              </div>
+
+              <div
+                class="thermal-system-connector"
+                aria-hidden="true"
+              >
+                →
+              </div>
+
+              <div class="thermal-system-step">
+                <span>04</span>
+
+                <strong>Respond</strong>
+
+                <p>
+                  Activate vibration zones across the scarf.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- Validation Plan -->
+          <article class="sensing-process-card sensing-validation-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                04
+              </p>
+
+              <h3>Validation Plan</h3>
+
+              <p>
+                Future testing would evaluate whether users can distinguish
+                the three haptic states without looking at a screen and whether
+                the vibration patterns remain understandable while walking,
+                sitting, or wearing layered clothing.
+              </p>
+
+            </div>
+
+            <div class="sensing-validation-steps">
+
+              <div>
+                <span>01</span>
+
+                <strong>Pattern recognition</strong>
+
+                <p>
+                  Can users identify cold, comfort, and hot states?
+                </p>
+              </div>
+
+              <div>
+                <span>02</span>
+
+                <strong>Wearability</strong>
+
+                <p>
+                  Do the components remain comfortable and discreet?
+                </p>
+              </div>
+
+              <div>
+                <span>03</span>
+
+                <strong>Control clarity</strong>
+
+                <p>
+                  Can the comfort range be adjusted without confusion?
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+
+          <!-- Concept Outcome -->
+          <article class="sensing-process-card sensing-outcome-card">
+
+            <div class="sensing-process-card-copy">
+
+              <p class="wearable-project-number">
+                05
+              </p>
+
+              <h3>Concept Outcome</h3>
+
+              <p>
+                The project defines an interaction system for translating
+                analog temperature data into bodily sensation. It combines
+                textile design, environmental sensing, user-controlled
+                thresholds, and directional haptic feedback in an expressive
+                wearable format.
+              </p>
+
+            </div>
+
+            <div class="sensing-outcome-points">
+
+              <div>
+                <strong>Screen-free awareness</strong>
+
+                <p>
+                  Temperature changes are communicated through touch.
+                </p>
+              </div>
+
+              <div>
+                <strong>Personalized comfort</strong>
+
+                <p>
+                  The wearer defines their preferred temperature range.
+                </p>
+              </div>
+
+              <div>
+                <strong>Expressive haptics</strong>
+
+                <p>
+                  Direction and rhythm communicate different thermal states.
+                </p>
+              </div>
+
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
   </main>
 
+
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-content container">
-      <p class="footer-brand">Maria Otero</p>
-      <p>Creative Technologist + Designer</p>
+      <p class="footer-brand">
+        Maria Otero
+      </p>
+
+      <p>
+        Creative Technologist + Designer
+      </p>
     </div>
   </footer>
+
 </body>
 </html>
